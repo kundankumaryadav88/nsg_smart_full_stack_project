@@ -17,12 +17,12 @@ const MainLayout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const navItems = [
-    { path: '/', label: 'Dashboard', icon: <FaTachometerAlt /> },
+    { path: '/dashboard', label: 'Dashboard', icon: <FaTachometerAlt /> },
     { path: '/dashboard', label: 'Events', icon: <FaCalendarCheck /> },
-    { path: '/', label: 'Peoples', icon: <FaUsers /> },
-    { path: '/', label: 'Messages', icon: <FaEnvelope /> },
-    { path: '/', label: 'Calendar', icon: <FaCalendarAlt /> },
-    { path: '/', label: 'Settings', icon: <FaCog /> }
+    { path: '/dashboard', label: 'Peoples', icon: <FaUsers /> },
+    { path: '/dashboard', label: 'Messages', icon: <FaEnvelope /> },
+    { path: '/dashboard', label: 'Calendar', icon: <FaCalendarAlt /> },
+    { path: '/dashboard', label: 'Settings', icon: <FaCog /> }
   ];
 
   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
