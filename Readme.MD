@@ -12,8 +12,8 @@ Make sure you have Node.js installed on your machine. You can download it from [
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd <project-name>
+git clone https://github.com/kundankumaryadav88/nsg_smart_full_stack_project
+cd nsg_smart_full_stack_project
 ```
 
 2. Install dependencies:
