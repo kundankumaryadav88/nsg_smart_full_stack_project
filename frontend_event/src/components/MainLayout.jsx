@@ -19,10 +19,10 @@ const MainLayout = () => {
   const navItems = [
     { path: '/', label: 'Dashboard', icon: <FaTachometerAlt /> },
     { path: '/dashboard', label: 'Events', icon: <FaCalendarCheck /> },
-    { path: '/peoples', label: 'Peoples', icon: <FaUsers /> },
-    { path: '/messages', label: 'Messages', icon: <FaEnvelope /> },
-    { path: '/calendar', label: 'Calendar', icon: <FaCalendarAlt /> },
-    { path: '/settings', label: 'Settings', icon: <FaCog /> }
+    { path: '/', label: 'Peoples', icon: <FaUsers /> },
+    { path: '/', label: 'Messages', icon: <FaEnvelope /> },
+    { path: '/', label: 'Calendar', icon: <FaCalendarAlt /> },
+    { path: '/', label: 'Settings', icon: <FaCog /> }
   ];
 
   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
