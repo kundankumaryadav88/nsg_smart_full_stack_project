@@ -354,7 +354,11 @@ textarea:focus {
   padding: 0;
   border: none;
 }
-
+.pagination_controls{
+  margin-top: 20px ;
+  display: flex;
+  justify-content: center;
+}
 /* Mobile responsive styles */
 @media (max-width: 768px) {
   .mobile-header {
